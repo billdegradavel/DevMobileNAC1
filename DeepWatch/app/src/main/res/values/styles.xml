@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CampoLogin" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/transparent</item>
+        <item name="colorControlActivated">@color/transparent</item>
+        <item name="colorControlHighlight">@color/transparent</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:inputType">textEmailAddress|textNoSuggestions</item>
+        <item name="android:textColor">@drawable/textcolor_edittext</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+    </style>
+
+</resources>
